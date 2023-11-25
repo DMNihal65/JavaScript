@@ -53,3 +53,8 @@ console.log(booleanIsLoggedin2)//true
 
 //More
 //String(string)
+
+
+
+//********************Operations**********************/
+
