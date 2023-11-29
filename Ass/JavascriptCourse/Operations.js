@@ -26,3 +26,48 @@ console.log(true) //true
 console.log(+true) //1
 
 
+//***********Comparison******** */
+
+console.log(undefined > 0)
+console.log(undefined < 0 )
+console.log(undefined == 0)
+
+
+//Strcit Check
+
+console.log("2" === 2) //false
+
+//++++++++++++++++++++++++++++++++++++++++++++/
+
+//Stacks and heap
+
+// Stack(Premtive) copy
+// Heap(Non-Premtive) Reffrence
+
+
+//Stack (Copy)
+let myname ="Nihal"
+let anothername=myname
+anothername="changed"
+
+console.log(anothername) //changed
+console.log(myname) //Nihal
+
+
+
+//Heap (Reffrence)
+let user ={
+    email:"user@gmail.com",
+    upi:1234
+}
+
+let user2 = user
+
+user2.email = "changed@email.com"
+
+console.log(user.email)//"changed@email.com"
+console.log(user2.email)//"changed@email.com"
+
+
+
+
