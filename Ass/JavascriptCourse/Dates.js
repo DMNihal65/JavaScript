@@ -15,3 +15,6 @@ console.log(mycreateddate.toDateString())//Mon Jan 23 2023
 let mytime= Date.now()
 console.log(mytime)//1701280970929
 
+let datenew = new Date()
+console.log(datenew.getDay())
+
