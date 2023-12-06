@@ -144,6 +144,21 @@ navbar(company = "nihalcomp")
 // }
 
 
+//data in the form of array
+//random user api smaple response
+
+// [
+//     {
+
+//     },
+//     {
+
+//     },
+// ]
+
+
+
+
 
 
 
